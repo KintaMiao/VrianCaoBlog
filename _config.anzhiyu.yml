@@ -140,7 +140,7 @@ favicon: https://cdn.jsdelivr.net/gh/KintaMiao/storage/sakuraicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://cdn.jsdelivr.net/gh/KintaMiao/storage/logo.jpeg
+  img: /img/logo.jpeg
   effect: false
 
 # Disable all banner image
@@ -162,7 +162,7 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    https://cdn.jsdelivr.net/gh/KintaMiao/storage/defaultcover.jpg
+    - /ing/defaultcover.jpg
     # - /img/default_cover.jpg
     # https://api.sretna.cn/kind/sc.php
 
@@ -1064,7 +1064,7 @@ home_top:
   banner:
     tips: GitHub
     title: KintaMiao's Homepage
-    image: https://cdn.jsdelivr.net/gh/KintaMiao/storage/GithubCard.jpg
+    image: /img/GithubCard.jpg
     link: https://github.com/KintaMiao
 
 # 朋友圈配置
