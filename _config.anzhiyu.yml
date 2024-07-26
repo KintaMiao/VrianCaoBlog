@@ -140,7 +140,7 @@ favicon: https://cdn.jsdelivr.net/gh/KintaMiao/storage/sakuraicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://cdn.jsdelivr.net/gh/KintaMiao/storage/logo.png
+  img: https://cdn.jsdelivr.net/gh/KintaMiao/storage/logo.jpeg
   effect: false
 
 # Disable all banner image
@@ -162,7 +162,7 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    https://img.vriancao.top/file/854925e3998e907520342.jpg
+    https://cdn.jsdelivr.net/gh/KintaMiao/storage/defaultcover.jpg
     # - /img/default_cover.jpg
     # https://api.sretna.cn/kind/sc.php
 
@@ -1064,7 +1064,7 @@ home_top:
   banner:
     tips: GitHub
     title: KintaMiao's Homepage
-    image: https://img.vriancao.top/file/766f88abbea5ca0d857c2.jpg
+    image: https://cdn.jsdelivr.net/gh/KintaMiao/storage/GithubCard.jpg
     link: https://github.com/KintaMiao
 
 # 朋友圈配置
@@ -1114,7 +1114,7 @@ comment_barrage_config:
 # 左下角音乐配置项
 # https://github.com/metowolf/MetingJS
 nav_music:
-  enable: true
+  enable: false
   console_widescreen_music: false # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
   id: 8152976493
   server: netease
