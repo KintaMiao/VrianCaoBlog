@@ -128,7 +128,7 @@ mathjax:
   every_page: false        # if true, every page will be rendered by mathjax regardless the `mathjax` setting in Front-matter of each article
 
 giscus:
-  enable: true
+  enable: false
   repo: KintaMiao/VrianCaoComment # Github repository name
   repo_id: R_kgDOMd4_Lw # Github repository id
   category: General # Github discussion category
