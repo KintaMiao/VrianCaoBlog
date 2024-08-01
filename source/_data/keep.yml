@@ -204,7 +204,7 @@ local_search:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/comment.html
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: true   # Option values: true | false
+  enable: false   # Option values: true | false
   use: giscus     # Option values: valine | gitalk | twikoo | waline | giscus | artalk | disqus
 
   # Valine
@@ -323,7 +323,7 @@ footer:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/inject.html
 # ---------------------------------------------------------------------------------------
 inject:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
   css:
     -
       # e.g.
@@ -331,7 +331,7 @@ inject:
       # - /css/custom-2.css
     # - ...
   js:
-    -
+    - /js/runtime.js
       # e.g.
       # - /js/custom-1.js
       # - /js/custom-2.js
