@@ -204,8 +204,8 @@ local_search:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/comment.html
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: false   # Option values: true | false
-  use: valine     # Option values: valine | gitalk | twikoo | waline | giscus | artalk | disqus
+  enable: true   # Option values: true | false
+  use: giscus     # Option values: valine | gitalk | twikoo | waline | giscus | artalk | disqus
 
   # Valine
   # See: https://github.com/xCss/Valine
@@ -248,11 +248,11 @@ comment:
   #      https://giscus.app
   # Please generate your configuration items in https://giscus.app
   giscus:
-    repo:
-    repo_id:
+    repo: KintaMiao/VrianCaoComment
+    repo_id: R_kgDOMd4_Lw
     category: Announcements    # Recommend use Announcements
-    category_id:
-    reactions_enabled: false   # Option values: true | false
+    category_id: DIC_kwDOMd4_L84ChVT2
+    reactions_enabled: true   # Option values: true | false
 
   # Artalk
   # See: https://github.com/ArtalkJS/Artalk
@@ -301,19 +301,19 @@ pjax:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/footer.html
 # ---------------------------------------------------------------------------------------
 footer:
-  since: 2020           # The starting year of your website, Can be null
+  since: 2024           # The starting year of your website, Can be null
   word_count: false     # Option values: true | false
 
   site_deploy:
-    enable: false        # Option values: true | false
-    provider: github     # Option values: github | vercel | netlify | cloudflare | gitee | aliyun | tencent_cloud | upyun
+    enable: true        # Option values: true | false
+    provider: cloudflare     # Option values: github | vercel | netlify | cloudflare | gitee | aliyun | tencent_cloud | upyun
     url:                 # Your deployment provider url, Can be null
 
   record:
-    enable: false        # Option values: true | false
+    enable: true        # Option values: true | false
     list:
-      - code:            # record code of your website
-        link:            # record link of your website, Can be null
+      - code: 萌ICP备20246866号           # record code of your website
+        link: https://icp.gov.moe/?keyword=20246866           # record link of your website, Can be null
       # e.g.
       # - code: ICP 001
       # - link: https://beian.miit.gov.cn
