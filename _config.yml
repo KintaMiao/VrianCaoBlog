@@ -126,3 +126,24 @@ mathjax:
   normal_width: 0.6        # relative normal (monospace) width
   append_css: true         # add CSS to every page
   every_page: false        # if true, every page will be rendered by mathjax regardless the `mathjax` setting in Front-matter of each article
+
+giscus:
+  enable: true
+  repo: KintaMiao/VrianCaoComment # Github repository name
+  repo_id: R_kgDOMd4_Lw # Github repository id
+  category: General # Github discussion category
+  category_id: DIC_kwDOMd4_L84ChVT3 # Github discussion category id
+  # Available values: pathname | url | title | og:title
+  mapping: title
+  # Available values: 0 | 1
+  reactions_enabled: 1
+   # Available values: 0 | 1
+  emit_metadata: 0
+  # Available values: light | light_high_contrast | light_protanopia | light_tritanopia | dark | dark_high_contrast | dark_protanopia | dark_tritanopia | dark_dimmed | preferred_color_scheme | transparent_dark | noborder_light | noborder_dark | noborder_gray | cobalt | purple_dark
+  theme: light
+  # Available values: en | zh-CN
+  lang: zh-CN
+  # Place the comment box above the comments
+  input_position: top
+  # Load the comments lazily
+  loading: lazy
