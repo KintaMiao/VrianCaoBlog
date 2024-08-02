@@ -163,3 +163,5 @@ while True:
 ---
 
 *感谢您的阅读*
+
+本文拥有区块链副本，你可以在[vrcao.xlog.app](https://vrcao.xlog.app/a-simple-cf-workers-ai-example)上查看本文的链上副本，在[此处](https://scan.crossbell.io/tx/0xc0dba2828dda4b385c7fc0cb736c158f3f1aeeff5bb34d623f7047b2746c87c9)查看本文在链上的信息和签名
