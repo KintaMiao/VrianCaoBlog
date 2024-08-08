@@ -39,7 +39,7 @@ categories: 教程
 
 >宝塔面板默认**不开放3001端口**，因此需先在`安全`页面，新增端口规则，如图所示：
 
-![端口规则](https://img.vriancao.top/file/7bc1518e2b24f0185215c.png "端口规则")
+![端口规则](https://ice.frostsky.com/2024/08/08/277e8cbf3f9074e137eac33d72a38349.png "端口规则")
 
 接下来进入`终端`页面
 
@@ -75,7 +75,7 @@ xream/sub-store
 进入`网站`页面，选择`反向代理`标签页，点击`新增反代`
 
 配置如图所示：
-![反代设置](https://img.vriancao.top/file/38a17adce29e7d2b4e2df.png "反代设置")
+![反代设置](https://ice.frostsky.com/2024/08/08/99388e5a830c15657ef41e83b8f15163.png "反代设置")
 将图中`sub.example.com`改为你自己想绑定的域名，目标中的`yourip`替换为你的服务器IP
 此时，你的`发送域名(host)`一栏应该显示为`$http_host`，备注显示为你的域名
 确认无误后，点击添加
@@ -85,7 +85,7 @@ xream/sub-store
 #### 配置SSL证书
 
 找到你刚刚配置的反代规则，点击右侧的`设置`，进入`SSL`选项卡，选择`Let's Encrypt`，选择域名，申请证书，随后页面应如图所示：
-![SSL证书配置](https://img.vriancao.top/file/695308c9979472efb96be.png "SSL证书配置")
+![SSL证书配置](https://ice.frostsky.com/2024/08/08/ae20095683f3a8b8859ac8171cfa7c54.png "SSL证书配置")
 
 ### 初次使用
 
@@ -96,6 +96,6 @@ xream/sub-store
 其中，将`YOURIP/DOMAIN`修改为你的`服务器IP或域名`，将`BACK_END_PASSWORD`修改为你设置的后端20位访问密钥
 
 你应该可以看到`数据刷新成功！`的提示，进入设置->后端设置，你应该可以看到类似于下图的配置：
-![后端示例](https://img.vriancao.top/file/4cc2d709a92910848ddc8.png "后端示例")
+![后端示例](https://ice.frostsky.com/2024/08/08/6c86c546f127556236099f50df6819ab.png "后端示例")
 
 >至此你已完成所有配置，享受Sub-Store带来的便利吧！
